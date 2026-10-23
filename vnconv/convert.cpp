@@ -32,6 +32,19 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 
 #include "vnconv.h"
 
+#if defined(_MSC_VER) && (_MSC_VER >= 1900)
+// Provide compatibility stub for legacy ___iob_func required when linking across CRT versions
+extern "C" {
+	FILE * __cdecl __iob_func(void) {
+		static FILE _iob[3];
+		_iob[0] = *stdin;
+		_iob[1] = *stdout;
+		_iob[2] = *stderr;
+		return _iob;
+	}
+}
+#endif
+
 int vnFileStreamConvert(int inCharset, int outCharset, FILE * inf, FILE *outf);
 
 int genConvert(VnCharset & incs, VnCharset & outcs, ByteInStream & input, ByteOutStream & output)

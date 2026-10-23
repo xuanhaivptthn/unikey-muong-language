@@ -3,7 +3,10 @@ The UniKey project consists of following components:
 - UVConverter: Universal Vietnamese Encoding Converter
 - vnconv (used by UniKey, UVConverter): library for Vietnamese encoding conversion.
 
-Official web site: http://unikey.org
+UniKey-Muong extends UniKey to support the Muong language.
+- Original Muong repository by nhvu95: https://github.com/nhvu95/unikey-muong-language
+- Current repository: https://github.com/xuanhaivptthn/unikey-muong-language
+- Official UniKey website: http://unikey.org
 
 These programs were released under the GNU General Public License!
 Please be fair and repect the rules. I have spent hundreds of hours to write these programs.

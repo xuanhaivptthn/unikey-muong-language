@@ -978,6 +978,8 @@ CVnCharsetLib::~CVnCharsetLib()
 		delete m_pWinCP1258;
 	if (m_pUniCString)
 		delete m_pUniCString;
+	if (m_pUniMuongCharset)
+		delete m_pUniMuongCharset;
 
 	int i;
 	for (i = 0; i < CONV_TOTAL_SINGLE_CHARSETS; i++)

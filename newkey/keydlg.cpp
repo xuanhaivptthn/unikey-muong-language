@@ -92,7 +92,7 @@ DlgItemInfo EnDlgItems[] = { // use generic string
 	{IDC_SWITCHKEY_PROMPT,	_T("Switch key:")},
 	{IDC_KEYMODE_PROMPT,	_T("Input method:")},
 	{IDC_OPTION_GROUP,		_T("Advanced options")},
-	{IDC_AUTO_START,		_T("Auto-run UniKey at boot time")},
+	{IDC_AUTO_START,		_T("Auto-run UniKey-Muong at boot time")},
 	{IDC_MACRO_CHECK,		_T("Enable macro")},
 	{IDC_MACRO_BTN,			_T("Macro table...")},
 	{IDC_USE_CLIPBOARD,     _T("Use clipboard for unicode")}

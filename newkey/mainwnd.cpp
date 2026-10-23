@@ -105,7 +105,7 @@ LRESULT CMainWnd::WindowProc(UINT uMsg, WPARAM wParam, LPARAM lParam)
 	switch (uMsg) {
 	/*
 	case WM_MULTI_INSTANCE:
-		MessageBox(m_hWnd, "UniKey is already running", "Information", MB_ICONINFORMATION);
+		MessageBox(m_hWnd, "UniKey-Muong is already running", "Information", MB_ICONINFORMATION);
 		result = TRUE;
 		break;
 	*/

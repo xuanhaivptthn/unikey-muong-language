@@ -1,0 +1,56 @@
+# Visual Studio temporary files, caches, and configurations
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.db
+*.opendb
+*.ncb
+*.aps
+*.plg
+*.ilk
+*.exp
+
+# Build output directories
+Debug/
+[Dd]ebug/
+Release/
+[Rr]elease/
+URelease/
+[Uu]Release/
+ipch/
+*.ipch
+
+# Subproject build outputs
+*/Debug/
+*/[Dd]ebug/
+*/Release/
+*/[Rr]elease/
+*/URelease/
+*/[Uu]Release/
+
+# Intermediate compiler and linker files
+*.obj
+*.pch
+*.res
+*.pdb
+*.idb
+*.tlog
+*.recipe
+*.lastbuildstate
+*.log
+*.FileListAbsolute.txt
+*.intermediate.manifest
+*.embed.manifest
+*.embed.manifest.res
+*.Build.CppClean.log
+
+# Archives and build packages
+publish/
+*.rar
+*.zip
+
+# Explicitly preserve required 3rd-party binary libraries
+!rtfio/
+!rtfio/**

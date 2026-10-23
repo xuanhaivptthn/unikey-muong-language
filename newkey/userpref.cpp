@@ -20,8 +20,8 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #include "prehdr.h"
 #include "userpref.h"
 
-#define VNKEY_REG _TEXT("Software\\PkLong\\UniKey")
-#define STARTUP_REG_VALUENAME _T("UniKey")
+#define VNKEY_REG _TEXT("Software\\PkLong\\UniKey-Muong")
+#define STARTUP_REG_VALUENAME _T("UniKey-Muong")
 
 int enableAutoStart(int enabled);
 int isAutoStartEnabled();

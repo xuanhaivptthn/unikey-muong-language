@@ -28,7 +28,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #include "keydlg.h"
 #include "mactab.h"
 
-#define MAIN_WINDOW_CLASS_NAME _T("UniKey MainWnd")
+#define MAIN_WINDOW_CLASS_NAME _T("UniKey-Muong MainWnd")
 
 #ifdef _UNICODE
 	#define VIET_FONT_NAME _T("Arial")
